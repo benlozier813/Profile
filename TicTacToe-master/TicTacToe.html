@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="TicTacToe.css" rel="stylesheet" media="screen">
+    <script src="jquery-1.12.0.min.js"></script>
+    <script src="TicTacToe.js"></script>
+    <meta charset="utf-8">
+    <title>TicTacToe</title>
+  </head>
+  <body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.6.8/dragula.min.js'></script>
+    <div class="row">
+      <div class="col-sm-4" id ="leftCol">
+        <h2 id="player1">Player 1</h2>
+        <i><input id="p1textbox"type="text" placeholder="Enter Name..."/></i>
+        <br></br>
+      </div>
+      <div class="col-sm-1">
+        <h3 id="player1score"></h3>
+        <p>Player 1</p>
+      </div>
+      <div class="col-sm-2">
+        <h1 id="scoreboard"> Scoreboard </h1>
+        <button id="startButton" style="display:none;" type="button" class="btn btn-primary">Start Game</button>
+        <button id="newGameButton" style="display:none;" type="button" class="btn btn-primary btn-sm btn-block">New Game</button>
+        <a href ="Users/apple/Downloads/rony-portfolio-bootstrap-one-page-template/TicTacToe-master/TicTacToe.html"><button id="resetButton" style="display:none;" type="button" class="btn btn-primary btn-sm btn-block">Reset Match</button></a>
+      </div>
+      <div class="col-sm-1">
+        <h3 id="player2score"></h3>
+        <p>Player 2</p>
+      </div>
+      <div class="col-sm-4" id = "rightCol">
+        <h2 id="player2">Player 2</h2>
+        <i><input id="p2textbox" type="text" placeholder="Enter Name..."/></i>
+        <br></br>
+      </div>
+    </div>
+    <div dragula='"first-bag"' class="table-responsive" id="board">
+      <table type= "button" id = "ticTable">
+        <tr id="row1">
+          <td  class="square" id = "0">X</td>
+          <td  class="square vertical"  id = "1">X</td>
+          <td  class="square" id = "2">X</td>
+        </tr>
+        <tr id="row2">
+          <td  class="square horizontal" id = "3">O</td>
+          <td  class="square vertical horizontal" id = "4">O</td>
+          <td  class="square horizontal" id = "5">O</td>
+        </tr>
+        <tr id="row3">
+          <td  class="square" id = "6">X</td>
+          <td  class="square vertical" id = "7">X</td>
+          <td  class="square" id = "8">X</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

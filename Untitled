@@ -1,0 +1,40 @@
+<div class="col-sm-6 news-item">
+  <div class="news-content">
+    <div class="date">
+
+    </div>
+    <h2 class="news-title">Oceanhouse Media</h2>
+    <span>Full Stack Developer/Intern</span>
+    <p>Implemented new features and Slack integration for CommitTo3, a popular SaaS app</p>
+
+
+    <p>Full stack development: Rails backend, Backbone.js web client, and iOS client</p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-sm-6 news-item">
+    <div class="news-content">
+      <div class="date">
+        <p>Apr</p>
+      </div>
+      <h2 class="news-title">Microsoft</h2>
+      <span>UI/UX Designer</span>
+      <p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure…</p>
+      <a class="read-more" href="#">Read More</a>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6 news-item right">
+    <div class="news-content">
+      <div class="date">
+        <p>Jan</p>
+      </div>
+      <h2 class="news-title">Amazon</h2>
+      <span>Designer</span>
+      <p>October 2013 – November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces.</p>
+      <a class="read-more" href="#">Read More</a>
+    </div>
+  </div>
